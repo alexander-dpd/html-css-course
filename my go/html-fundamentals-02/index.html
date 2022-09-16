@@ -4,31 +4,31 @@
 <head>
     <meta charset="UTF-8" />
     <title>The Basic Language of the Web: HTML</title>
+    <link href="style.css" rel="stylesheet" />
 </head>
 
 <body>
-    <header>
+    <header class="Top-Bar">
         <h1>📘 The Code Magazine</h1>
 
         <nav>
-            <a href="blog.html">Blog</a>
-            <a href="#">Challenges</a>
+            <button class="button-56" href="blog.html">Blog</button>
+            <p></p>
+            <button class="button-56" href="#">Challenges</button>
             <a href="#">Flexbox</a>
             <a href="#">CSS Grid</a>
         </nav>
     </header>
 
+    <p></p>
     <article>
-        <header>
-            <h2>The Basic Language of the Web: HTML</h2>
-
-            <img src="img/laura-jones.jpg" alt="Headshot of Laura Jones" height="50" width="50" />
-
-            <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
-
-            <img src="img/post-img.jpg" alt="HTML code on a screen" width="500" height="200" />
+        <header class="article-header">
+            <h2 id="article-title">The Basic Language of the Web: HTML</h2>
+            <img id="profile-pic" src="img/laura-jones.jpg" alt="Headshot of Laura Jones" height="100" width="100" />
+            <p id="author">Posted by <strong id="author-bold">Laura Jones</strong> on Monday, June 21st 2027</p>
         </header>
-
+        <p></p>
+        <img src="img/post-img.jpg" alt="HTML code on a screen" width="500" height="200" />
         <p>
             All modern websites and web applications are built using three
             <em>fundamental</em> technologies: HTML, CSS and JavaScript. These are the languages of the web.
@@ -56,7 +56,7 @@
 
         <p>
             You can learn more at
-            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs</a
+            <a id="learn-more" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs</a
         >.
       </p>
 
