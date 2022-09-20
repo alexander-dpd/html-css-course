@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+h1 {
+    color: #ffffff;
+}
+
 body {
     color: #444;
     font-family: sans-serif;
@@ -16,18 +20,24 @@ body {
 }
 
 .main-header {
-    background-color: #f7f7f7;
+    background-color: #83C5BE;
     padding: 20px 40px;
     margin-bottom: 60px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 
 nav {
     font-size: 18px;
     /* display: inline; */
+    text-align: center;
 }
 
 article {
     margin-bottom: 60px;
+    background-color: #EDF6F9;
+    padding: 15px;
+    border-radius: 20px;
 }
 
 .post-header {
@@ -51,12 +61,13 @@ aside {
 .subhead-pic {
     border-radius: 10px;
     display: block;
-    width: 800px;
-    height: 320px;
+    width: 770px;
+    height: 308px;
     margin-right: 100px;
+    justify-content: center;
+    display: flex;
 }
 
-h1,
 h2,
 h3 {
     color: #1098ad;
@@ -151,9 +162,9 @@ a:visited {
 }
 
 a:hover {
-    color: orangered;
+    color: #E29578;
     font-weight: bold;
-    text-decoration: underline orangered;
+    text-decoration: underline #E29578;
 }
 
 a:active {
@@ -186,8 +197,9 @@ button {
 }
 
 h1::first-letter {
-    font-style: normal;
-    margin-right: 5px;
+    font-style: italic;
+    margin-right: -5px;
+    font-size: 42px;
 }
 
 h2 {
