@@ -183,7 +183,8 @@ h2::before {
     right: -25px;
 }
 
-.main-header {
+
+/* .main-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -198,8 +199,10 @@ h2::before {
 .author {
     margin-bottom: 0;
     margin-left: 15px;
-}
+} */
 
+
+/* 
 .related-post {
     display: flex;
     align-items: center;
@@ -221,6 +224,7 @@ h2::before {
     font-weight: normal;
     font-style: italic;
 }
+*/
 
 .container {
     display: grid;
@@ -231,9 +235,5 @@ h2::before {
 }
 
 .main-header {
-    grid-column: 1 / -1;
-}
-
-footer {
-    grid-column: 1 / -1;
+    grid-column: 1/-1;
 }
