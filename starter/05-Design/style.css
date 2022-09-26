@@ -146,7 +146,11 @@ img {
 
 /* FEATURES */
 
-.features-icon {}
+.features-icon {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10px;
+}
 
 .features-title {
     margin-bottom: 16px;
@@ -216,7 +220,10 @@ h3 {
     margin-bottom: 0;
 }
 
-.chair-icon {}
+.chair-icon {
+    width: 32px;
+    height: 32px;
+}
 
 .chair-price {
     display: flex;
